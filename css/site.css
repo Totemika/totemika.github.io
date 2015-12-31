@@ -1,7 +1,22 @@
 .margin-left-5px{
 	margin-left: 5px;
 }
-
+.margin-top-10px{
+	margin-top:10px;
+}
+.no-left-padding{
+	padding-left: 0px;
+}
 .cv h3{
 	font-size:17px;
+}
+
+.cv h5{
+	font-style: italic;
+    font-size: 14px;
+    color: gray;
+}
+
+.github-area{
+	color:black;
 }

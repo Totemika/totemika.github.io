@@ -23,7 +23,7 @@ $("#input-add-image").change(function(){
 });
 
 function uploadFile() {
-    blobFile = $('#input-add-image').files[0]);
+    blobFile = $('#input-add-image').files[0];
     var fd = new FormData();
     fd.append("capturedImage", blobFile);
 

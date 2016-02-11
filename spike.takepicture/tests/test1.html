@@ -14,19 +14,39 @@
   <div class="text-center col-xs-offset-3 col-xs-6 col-md-offset-4 col-md-4">
     <h3>Option 1: HTML5</h3><br>
     <div class="well">
-      Using HTML5 <strong>capture</strong> attribute. Click on "Choose file" and mobile gallery will open.
+      Using HTML5 <strong>capture</strong> attribute. Click on "Choose file" and device gallery will open.
     </div>
-    <input type="file" accept="image/*" capture="camera">
+    <div class="row">
+      <div class="col-xs-6">
+          <input id="input-add-image" class="btn btn-default" type="file" accept="image/*" capture="camera">
+      </div>
+      <div class="col-xs-6 text-right">
+          <button class="btn btn-success" type="button" id="button-send-image">Send image</button>
+      </div>
+      <div class="col-xs-12">
+        <img id="image-result" src="your_image_here.jpg" alt="your image" />
+      </div>
+    </div>
 
     <br><br>
     <div class="well text-left">
       Tested on:
-      <li>iPhone6 with iOS 9.2.1 <span class="glyphicon glyphicon-ok-circle"></span></li>
+      <li>iPhone 6 with iOS 9.2.1 <span class="glyphicon glyphicon-ok-circle"></span></li>
       <li>Nokia 925 with Windows Phone 8 <span class="glyphicon glyphicon-ok-circle"></span></li>
+    </div>
+
+    <br><br>
+    <div class="well text-left">
+      Next challenges:
+      <ul>
+        <li>Remove or add style to 'no file chosen'</li>
+        <li>Validate input in Angular??</li>
+      </ul>
     </div>
   </div>
 </body>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/test1.js"></script>
 </html>

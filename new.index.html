@@ -32,16 +32,17 @@
 
 
 <div ng-app="totemikaSiteApp" ng-controller="totemikaSiteAppController">
-
     <ts-header></ts-header>
     <ts-nav-bar></ts-nav-bar>
     <ui-view></ui-view>
+
+    <script ng-if="$rootScope.$state.name == 'home'">!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script></body>
 </div>
 
 <script src="app.navigation.js"></script>
 <script src="app.module.js"></script>
+<script src="services/twitterService.js"></script>
 <script src="shared/nav-bar/nav-bar.directive.js"></script>
 <script src="shared/header/header.controller.js"></script>
 <script src="shared/header/header.directive.js"></script>
-<script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script></body>
 </html>

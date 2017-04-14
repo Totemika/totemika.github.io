@@ -1,30 +1,95 @@
-.margin-left-5px{
-	margin-left: 5px;
+.margin-left-5px {
+    margin-left: 5px;
 }
-.margin-top-10px{
-	margin-top:10px;
+
+.margin-top-10px {
+    margin-top: 10px;
 }
-.margin-top-20px{
-	margin-top:20px;
+
+.margin-top-20px {
+    margin-top: 20px;
 }
-.no-left-padding{
-	padding-left: 0px;
+
+.no-left-padding {
+    padding-left: 0px;
 }
-.cv h3{
-	font-size:17px;
+
+.cv h3 {
+    font-size: 17px;
 }
-.cv h5{
-	font-style: italic;
-	font-size: 14px;
-	color: gray;
+
+.cv h5 {
+    font-style: italic;
+    font-size: 14px;
+    color: gray;
 }
-.github-area{
-	color:black;
+
+.github-area {
+    color: black;
 }
-.width-100{
-	width: 100%;
+
+.width-100 {
+    width: 100%;
 }
-.left-column h3{
-	color: #18385F;
-	font-family:monospace;
+
+.left-column h3 {
+    color: #18385F;
+    font-family: monospace;
+}
+/*.animate-show-hide {
+    transition: all linear 0.5s;
+}
+
+.animate-show-hide.ng-hide {
+    opacity: 0;
+}*/
+
+.animate-show-hide.ng-hide {
+    opacity: 0;
+}
+
+.animate-show-hide.ng-hide-add{
+    transition: all linear 0.3s;
+}
+.animate-show-hide.ng-hide-remove {
+    transition: all linear 1s;
+}
+
+body {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }

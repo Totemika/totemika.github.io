@@ -15,7 +15,16 @@
 </h1>
 
 
-<img class="fadein__delay1__duration1" src="https://media.giphy.com/media/l0MYBzykeuHzLef3G/giphy.gif" alt="">
+<!--<div class="imgContainer">-->
+    <!--<a href="https://media.giphy.com/media/l0MYBzykeuHzLef3G/giphy.gif">-->
+        <!--<img style="cursor:pointer" class="fadein__delay1__duration1" src="https://media.giphy.com/media/l0MYBzykeuHzLef3G/giphy.gif" alt="">-->
+    <!--</a>-->
+    <!--<a href="http://www.karo-rigaud.com/" class="author">-->
+        <!--👩‍🎨<strong>Karo Rigaud</strong> via giphy 🔗-->
+    <!--</a>-->
+<!--</div>-->
+
+<br>
 
 <div id="index-content" class="fadein__delay1__duration1">
     <div>
@@ -38,6 +47,26 @@
 </html>
 
 <style>
+    .imgContainer {
+        border: 3px dashed transparent;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgContainer .author {
+        opacity: 0;
+        color: #1312109e;
+        font-family: sans-serif;
+    }
+    .imgContainer:hover {
+        border: 3px dashed rgba(250, 250, 210, 0.25);
+    }
+
+    .imgContainer:hover .author {
+        opacity: 1;
+    }
+
     body {
         background-color: #fee13f;
         font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));

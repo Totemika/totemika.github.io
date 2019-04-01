@@ -41,64 +41,7 @@ footer {
 	padding: 0 25px;
 	align-items: center;
 }
-#SecretDoor {
-	justify-self: flex-end;
-	display: flex;
-	justify-content: center;
-	font-size: 4rem;
-	margin-top: .6rem;
-	opacity: 0.1;
-
-}
-#SecretDoor a {
-	text-decoration: none;
-}
-#SecretDoor:hover {
-	opacity: 1;
-	transition: opacity 0.5s;
-	-webkit-transition: opacity 0.5s;
-	right: -20px;
-	cursor: pointer;
-}
-
-#SecretDoor:hover::after {
-	content: "😨‍️";
-	position: relative;
-	animation: shaking 0.6s infinite;
-}
-
-@keyframes shaking {
-	0% {
-		transform: translate(1px, 1px) rotate(0deg);
-	}
-	10% {
-		transform: translate(-1px, -2px) rotate(-1deg);
-	}
-	20% {
-		transform: translate(-3px, 0px) rotate(1deg);
-	}
-	30% {
-		transform: translate(3px, 2px) rotate(0deg);
-	}
-	40% {
-		transform: translate(1px, -1px) rotate(1deg);
-	}
-	50% {
-		transform: translate(-1px, 2px) rotate(-1deg);
-	}
-	60% {
-		transform: translate(-3px, 1px) rotate(0deg);
-	}
-	70% {
-		transform: translate(3px, 1px) rotate(-1deg);
-	}
-	80% {
-		transform: translate(-1px, -1px) rotate(1deg);
-	}
-	90% {
-		transform: translate(1px, 2px) rotate(0deg);
-	}
-	100% {
-		transform: translate(1px, -2px) rotate(-1deg);
-	}
+#leanmind-logo {
+	max-width: 85px;
+	margin: 15px;
 }

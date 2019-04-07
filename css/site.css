@@ -2,6 +2,11 @@ h3 > p {
 	font-size: 0.7em ;
 	color: #79a4d2;
 	text-transform: none;
+	margin-bottom: 0;
+}
+.job-location {
+	color: #6883a5;
+	display: inline-block;
 }
 .margin-left-5px{
 	margin-left: 5px;

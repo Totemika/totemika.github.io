@@ -6,19 +6,32 @@
     <description>Recent content on Rosana&#39;s notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Apr 2019 19:58:49 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 20 Apr 2019 22:25:36 +0100</lastBuildDate>
     
 	<atom:link href="http://rosanarufer.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Reading JavaScript Allonge</title>
+      <title>[JavaScript Allongé] Module One</title>
+      <link>http://rosanarufer.github.io/blog/posts/javascript-allonge-module-one/</link>
+      <pubDate>Sat, 20 Apr 2019 22:25:36 +0100</pubDate>
+      
+      <guid>http://rosanarufer.github.io/blog/posts/javascript-allonge-module-one/</guid>
+      <description>Module 1: Functions and their stuff A function in JavaScript is of reference type.
+(function () {}) === (function () {}) //=&amp;gt; false  Ouroborian array: An array that contains itself.
+var ouroboros=[]; ouroboros[0]=ouroboros; //=&amp;gt; [ [Circular] ]  void is an operator that takes any value and evaluates to undefined, always. If you want to return undefined you may use:
+return void 0; //=&amp;gt;undefined  Any value after void will work, but by convention you better use void 0;</description>
+    </item>
+    
+    <item>
+      <title>Reading JavaScript Allongé</title>
       <link>http://rosanarufer.github.io/blog/posts/javascript-allonge-summary/</link>
       <pubDate>Sat, 20 Apr 2019 19:58:49 +0100</pubDate>
       
       <guid>http://rosanarufer.github.io/blog/posts/javascript-allonge-summary/</guid>
-      <description>I am currently reading this amazing book called &amp;ldquo;JavaScript Allonge&amp;rdquo; and I would like to use my blog as a notebook to summarize the parts I found the most interesting.
-Book</description>
+      <description>I am currently reading this amazing book called &amp;ldquo;JavaScript Allongé&amp;rdquo; and I would like to use my blog as a notebook to summarize the parts I found the most interesting.
+Table of content As a general rule for effective learning when reading, it is recommended that you read the table of contents and get an idea of what the book contains and how it is structured.
+This book&amp;rsquo;s table of content is a bit messy and some titles are not very descriptive, after separating the wheat from the chaff one could say the content can be split into the following modules:</description>
     </item>
     
   </channel>

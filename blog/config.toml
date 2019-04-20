@@ -1,0 +1,4 @@
+baseURL = "http://rosanarufer.github.io/blog"
+languageCode = "en-us"
+title = "Rosana's notebook"
+theme = "ananke"

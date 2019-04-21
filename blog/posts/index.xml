@@ -6,22 +6,10 @@
     <description>Recent content in Posts on Rosana&#39;s notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Apr 2019 22:25:36 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 20 Apr 2019 19:58:49 +0100</lastBuildDate>
     
 	<atom:link href="http://rosanarufer.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>[JavaScript Allongé] Module One</title>
-      <link>http://rosanarufer.github.io/blog/posts/javascript-allonge-module-one/</link>
-      <pubDate>Sat, 20 Apr 2019 22:25:36 +0100</pubDate>
-      
-      <guid>http://rosanarufer.github.io/blog/posts/javascript-allonge-module-one/</guid>
-      <description>Module 1: Functions and their stuff A function in JavaScript is of reference type.
-(function () {}) === (function () {}) //=&amp;gt; false  Ouroborian array: An array that contains itself.
-var ouroboros=[]; ouroboros[0]=ouroboros; //=&amp;gt; [ [Circular] ]  void is an operator that takes any value and evaluates to undefined, always. If you want to return undefined you may use:
-return void 0; //=&amp;gt;undefined  Any value after void will work, but by convention you better use void 0;</description>
-    </item>
     
     <item>
       <title>Reading JavaScript Allongé</title>

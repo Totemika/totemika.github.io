@@ -29,8 +29,7 @@
     
 
     <meta property="og:title" content="Reading JavaScript Allongé" />
-<meta property="og:description" content="I am currently reading this amazing book called &ldquo;JavaScript Allongé&rdquo; and I would like to use my blog as a notebook to summarize the parts I found the most interesting.
-Table of content As a general rule for effective learning when reading, it is recommended that you read the table of contents and get an idea of what the book contains and how it is structured.
+<meta property="og:description" content="I am currently reading this amazing book called &ldquo;JavaScript Allongé&rdquo; and I would like to use my blog as a notebook to summarize the parts I found the most interesting. Table of content As a general rule for effective learning when reading, it is recommended that you read the table of contents and get an idea of what the book contains and how it is structured.
 This book&rsquo;s table of content is a bit messy and some titles are not very descriptive, after separating the wheat from the chaff one could say the content can be split into the following modules:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://rosanarufer.github.io/blog/posts/javascript-allonge-summary/" />
@@ -38,22 +37,20 @@ This book&rsquo;s table of content is a bit messy and some titles are not very d
 <meta property="article:modified_time" content="2019-04-20T19:58:49&#43;01:00"/>
 
 <meta itemprop="name" content="Reading JavaScript Allongé">
-<meta itemprop="description" content="I am currently reading this amazing book called &ldquo;JavaScript Allongé&rdquo; and I would like to use my blog as a notebook to summarize the parts I found the most interesting.
-Table of content As a general rule for effective learning when reading, it is recommended that you read the table of contents and get an idea of what the book contains and how it is structured.
+<meta itemprop="description" content="I am currently reading this amazing book called &ldquo;JavaScript Allongé&rdquo; and I would like to use my blog as a notebook to summarize the parts I found the most interesting. Table of content As a general rule for effective learning when reading, it is recommended that you read the table of contents and get an idea of what the book contains and how it is structured.
 This book&rsquo;s table of content is a bit messy and some titles are not very descriptive, after separating the wheat from the chaff one could say the content can be split into the following modules:">
 
 
 <meta itemprop="datePublished" content="2019-04-20T19:58:49&#43;01:00" />
 <meta itemprop="dateModified" content="2019-04-20T19:58:49&#43;01:00" />
-<meta itemprop="wordCount" content="977">
+<meta itemprop="wordCount" content="1025">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Reading JavaScript Allongé"/>
-<meta name="twitter:description" content="I am currently reading this amazing book called &ldquo;JavaScript Allongé&rdquo; and I would like to use my blog as a notebook to summarize the parts I found the most interesting.
-Table of content As a general rule for effective learning when reading, it is recommended that you read the table of contents and get an idea of what the book contains and how it is structured.
+<meta name="twitter:description" content="I am currently reading this amazing book called &ldquo;JavaScript Allongé&rdquo; and I would like to use my blog as a notebook to summarize the parts I found the most interesting. Table of content As a general rule for effective learning when reading, it is recommended that you read the table of contents and get an idea of what the book contains and how it is structured.
 This book&rsquo;s table of content is a bit messy and some titles are not very descriptive, after separating the wheat from the chaff one could say the content can be split into the following modules:"/>
 
   </head>
@@ -117,7 +114,8 @@ This book&rsquo;s table of content is a bit messy and some titles are not very d
 
 <p>I am currently reading this amazing book called &ldquo;JavaScript Allongé&rdquo; and I would
 like to use my blog as a notebook to summarize the parts I found the most
-interesting.</p>
+interesting.
+<span id="index"></p>
 
 <h3 id="table-of-content">Table of content</h3>
 
@@ -130,8 +128,8 @@ titles are not very descriptive, after separating the wheat from the chaff one c
 say the content can be split into the following modules:</p>
 
 <ul>
-<li><a href="../javascript-allonge-module-one">Module 1: The JavaScript functions, their context and wonders.</a></li>
-<li>Module 2: Rebinding and references.</li>
+<li><a href="./#module1">Module 1: The JavaScript functions, their context and wonders.</a></li>
+<li><a href="./#module2">Module 2: Rebinding and references</a>.</li>
 <li>Module 3: Objects, mutation and state.</li>
 <li>Module 4: Instances and classes.</li>
 <li>Module 5: Sequence.</li>
@@ -141,12 +139,16 @@ say the content can be split into the following modules:</p>
 <p>&ndash;</p>
 
 <blockquote>
-<p><em>&ldquo;The Strength of JS is that you can do anything. The weakness is that you will&rdquo;</em></p>
+<p><em>&ldquo;The Strength of JavaScript is that you can do anything. The weakness is that you will&rdquo;</em></p>
 </blockquote>
 
 <p>&ndash;</p>
 
-<p>#Module1</p>
+<p><br id="module1"></p>
+
+<h3 id="module1-the-javascript-functions-their-context-and-wonders">Module1: The JavaScript functions, their context and wonders</h3>
+
+<hr />
 
 <p>A function in JavaScript is of <strong>reference</strong> type.</p>
 
@@ -154,15 +156,15 @@ say the content can be split into the following modules:</p>
 //=&gt; false
 </code></pre>
 
-<p><strong>Ouroborian array</strong>: An array that contains itself.</p>
+<p>An <strong>ouroborian array</strong> is an array that contains itself.</p>
 
 <pre><code>var ouroboros=[];
 ouroboros[0]=ouroboros;
 //=&gt; [ [Circular] ]
 </code></pre>
 
-<p><strong>void</strong> is an operator that takes any value and evaluates to undefined, <strong>always</strong>.
-If you want to return <code>undefined</code> you may use:</p>
+<p><strong>void</strong> is an operator that takes any value and evaluates to <code>undefined</code>, <strong>always</strong>.
+If you want to return <code>undefined</code> you may return <strong>void 0</strong>:</p>
 
 <pre><code>return void 0;
 //=&gt;undefined
@@ -370,9 +372,21 @@ Implementation and playground:
 
 <p><code>tap</code> takes a value and returns a function that always returns the value, but if you pass it a function, it executes the function for side-effects</p>
 
-<p>#Module 2</p>
+<p><br id="module2">
+<a href="./#index"> 🔝 Table of Content</a></p>
 
-<p>Object property names that are not alphanumeric, must be enclosed in quotes.</p>
+<h3 id="module-2-rebinding-and-references">Module 2: Rebinding and references</h3>
+
+<hr />
+
+<p>In JavaScript, arrays and objects mutate: we can reassign parts of their structure and their identity stays the same.
+Object property names that are not alphanumeric, must be enclosed in quotes.</p>
+
+<h5 id="how-to-shoot-yourself-in-the-foot-with-var">How to shoot yourself in the foot with <code>var</code></h5>
+
+<ol>
+<li>Loose use:</li>
+</ol>
 <ul class="pa0">
   
 </ul>

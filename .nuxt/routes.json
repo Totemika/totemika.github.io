@@ -1,0 +1,14 @@
+[
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/Users/rosana/03_Personal_Projects/rosanarufer.github.io/pages/contact.vue",
+    "chunkName": "pages/contact"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/rosana/03_Personal_Projects/rosanarufer.github.io/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]

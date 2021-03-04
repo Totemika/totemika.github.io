@@ -7,6 +7,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _a6d8791c = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _2c7fc491 = () => interopDefault(import('../pages/cv.vue' /* webpackChunkName: "pages/cv" */))
 const _d235b232 = () => interopDefault(import('../pages/lists.vue' /* webpackChunkName: "pages/lists" */))
+const _27f8e3fb = () => interopDefault(import('../pages/blog/_slug.vue' /* webpackChunkName: "pages/blog/_slug" */))
 const _a2a3f4b8 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -32,6 +33,10 @@ export const routerOptions = {
     path: "/lists",
     component: _d235b232,
     name: "lists"
+  }, {
+    path: "/blog/:slug?",
+    component: _27f8e3fb,
+    name: "blog-slug"
   }, {
     path: "/",
     component: _a2a3f4b8,

@@ -2,31 +2,36 @@
   {
     "name": "contact",
     "path": "/contact",
-    "component": "/Users/rosana/03_Personal_Projects/rosanarufer.github.io/pages/contact.vue",
-    "chunkName": "pages/contact"
+    "component": "/home/rosana/01_Career/00_Repositories/rosanarufer.github.io/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_2f8538c4"
   },
   {
     "name": "cv",
     "path": "/cv",
-    "component": "/Users/rosana/03_Personal_Projects/rosanarufer.github.io/pages/cv.vue",
-    "chunkName": "pages/cv"
+    "component": "/home/rosana/01_Career/00_Repositories/rosanarufer.github.io/pages/cv.vue",
+    "chunkName": "pages/cv",
+    "_name": "_61c5b8e5"
   },
   {
     "name": "lists",
     "path": "/lists",
-    "component": "/Users/rosana/03_Personal_Projects/rosanarufer.github.io/pages/lists.vue",
-    "chunkName": "pages/lists"
+    "component": "/home/rosana/01_Career/00_Repositories/rosanarufer.github.io/pages/lists.vue",
+    "chunkName": "pages/lists",
+    "_name": "_0e90e213"
   },
   {
     "name": "blog-slug",
     "path": "/blog/:slug?",
-    "component": "/Users/rosana/03_Personal_Projects/rosanarufer.github.io/pages/blog/_slug.vue",
-    "chunkName": "pages/blog/_slug"
+    "component": "/home/rosana/01_Career/00_Repositories/rosanarufer.github.io/pages/blog/_slug.vue",
+    "chunkName": "pages/blog/_slug",
+    "_name": "_287f444f"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/rosana/03_Personal_Projects/rosanarufer.github.io/pages/index.vue",
-    "chunkName": "pages/index"
+    "component": "/home/rosana/01_Career/00_Repositories/rosanarufer.github.io/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2659c0d0"
   }
 ]

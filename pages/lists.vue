@@ -11,7 +11,7 @@
      <div><h2>Blogs to follow</h2>
         <ul>
             <li><a href="https://jvns.ca/">Julia Evans</a></li>
-            <li><a href="https://snipe.net/"></a>Snipe</li>
+            <li><a href="https://snipe.net/">Snipe</a></li>
             <li><a href="https://www.taniarascia.com/blog">Tania Rascia</a></li>
             <li><a href="https://www.sarasoueidan.com/blog/">Sara Soueidan</a></li>
         </ul>

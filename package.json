@@ -5,7 +5,7 @@
   "build": "nuxt build",
   "generate": "nuxt generate",
   "start": "nuxt start",
-  "deploy": "push-dir --dir=dist --branch=master --cleanup"
+  "deploy": "push-dir --dir=dist --branch=master"
  },
  "dependencies": {
   "@nuxt/content": "^1.14.0",

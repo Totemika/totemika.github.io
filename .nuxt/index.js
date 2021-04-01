@@ -12,8 +12,8 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_pluginclient_784611e0 from 'nuxt_plugin_pluginclient_784611e0' // Source: ./content/plugin.client.js (mode: 'client')
-import nuxt_plugin_pluginserver_4400f930 from 'nuxt_plugin_pluginserver_4400f930' // Source: ./content/plugin.server.js (mode: 'server')
+import nuxt_plugin_pluginclient_b141cd98 from 'nuxt_plugin_pluginclient_b141cd98' // Source: ./content/plugin.client.js (mode: 'client')
+import nuxt_plugin_pluginserver_0d188abc from 'nuxt_plugin_pluginserver_0d188abc' // Source: ./content/plugin.server.js (mode: 'server')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -59,7 +59,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"meta":[],"link":[],"style":[],"script":[]},
+    head: {"link":[{"rel":"icon","type":"image\u002Fico","href":"\u002Ffavicon.ico"}],"titleTemplate":"RR","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Meta description"}],"style":[],"script":[]},
 
     router,
     nuxt: {
@@ -173,12 +173,12 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (process.client && typeof nuxt_plugin_pluginclient_784611e0 === 'function') {
-    await nuxt_plugin_pluginclient_784611e0(app.context, inject)
+  if (process.client && typeof nuxt_plugin_pluginclient_b141cd98 === 'function') {
+    await nuxt_plugin_pluginclient_b141cd98(app.context, inject)
   }
 
-  if (process.server && typeof nuxt_plugin_pluginserver_4400f930 === 'function') {
-    await nuxt_plugin_pluginserver_4400f930(app.context, inject)
+  if (process.server && typeof nuxt_plugin_pluginserver_0d188abc === 'function') {
+    await nuxt_plugin_pluginserver_0d188abc(app.context, inject)
   }
 
   // Lock enablePreview in context

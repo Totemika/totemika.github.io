@@ -6,3 +6,8 @@
   max-width: 900px;
   margin: 0 auto;
 }
+
+#navlinks > *:not(:first-child):not(:last-child) {
+  margin-left: 10px;
+  margin-right: 10px;
+}

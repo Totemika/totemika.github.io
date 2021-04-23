@@ -14,6 +14,6 @@ export default {
             // hid is used as unique identifier. Do not use `vmid` for it as it will not work
             {hid: 'description', name: 'description', content: 'Meta description'}
         ],
-        script: [{src: '@/assets/heap.js'}]
+        script: [{src: '/heap.js'}]
     }
 }
